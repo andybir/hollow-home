@@ -5,12 +5,12 @@ export default function Index() {
         <h1>Welcome to the hollow!</h1>
       </div>
       <div className='links-container'>
-        <div>
-          <a href='https://sullivankids.org/'>Sullivan Kids</a>
-        </div>
-        <div>
-          <a href='https://thehollowbk.org/'>the hollow</a>
-        </div>
+        <a href='https://sullivankids.org/'>
+          <div className='link'>Sullivan Kids</div>
+        </a>
+        <a href='https://thehollowbk.org/'>
+          <div className='link'>the hollow</div>
+        </a>
       </div>
     </div>
   )
