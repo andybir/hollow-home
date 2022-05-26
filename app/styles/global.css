@@ -42,6 +42,7 @@ p {
 }
 
 .title-container {
+  display: flex;
   align-items: center;
   flex-direction: column;
   padding: 30px;
@@ -59,7 +60,41 @@ p {
   margin: 20px;
   padding: 20px;
   border: 3px solid #212B36;
-  width: 100px;
+  width: 200px;
+}
+
+.the-hollow {
+  font-style: italic;
+}
+
+/* Mobile Settings */
+@media only screen and (max-width: 700px) {
+  * {
+    background-color: rgb(247, 142, 142);
+  }
+  .home-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .links-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .link {
+    /* display: flex; */
+    flex-direction: column;
+
+    
+  }
 }
 
 
@@ -193,34 +228,7 @@ i {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 700px) {
-  * {
-    background-color: rgb(247, 142, 142);
-  }
-  .home-container {
-    display: flex;
-    flex-direction: column;
-  }
 
-  .title-container {
-    /* display: flex; */
-
-    /* flex-direction: column; */
-  }
-
-  .links-container {
-    /* display: flex; */
-    
-    flex-direction: column;
-  }
-
-  .link {
-    /* display: flex; */
-    flex-direction: column;
-
-    
-  }
-}
 
 /* Hamburger Menu */
 .top-nav {
