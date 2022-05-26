@@ -55,7 +55,7 @@ function Layout({ children }) {
     <>
       <nav className='navbar'>
         <Link to='/' className='logo'>
-          the hollow
+          {/* the hollow */}
         </Link>
       </nav>
       <div className='container'>{children}</div>
