@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Quicksand&display=swap');
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,11 @@
 }
 
 body {
-  font-family: 'Marcellus', serif;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
 }
 
 a {
@@ -25,8 +29,9 @@ p {
   margin: 10px 0;
 }
 
-.container {
+.home-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -35,6 +40,16 @@ p {
   margin: auto;
   padding: 0 30px;
 }
+
+.title-container {
+  align-items: center;
+  flex-direction: column;
+}
+
+.links-container {
+  flex-direction: row;
+} 
+
 
 /* .content {
   align-items: center;
