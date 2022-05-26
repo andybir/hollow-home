@@ -12,10 +12,10 @@ export default function Index() {
       </div>
       <div className='links-container'>
         <a href='https://sullivankids.org/'>
-          <div className='link'>Sullivan Kids</div>
+          <div className='link'>The Preschool</div>
         </a>
         <a href='https://thehollowbk.org/'>
-          <div className='link'>the hollow</div>
+          <div className='link'>The Playspace</div>
         </a>
       </div>
     </div>
