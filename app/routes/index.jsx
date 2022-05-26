@@ -8,7 +8,7 @@ export default function Index() {
       </div>
       <div className='title-container'>
         <h1>Welcome to</h1>
-        <h1 className='the-hollow'>the hollow!</h1>
+        <h1 className='the-hollow'>the hollow</h1>
       </div>
       <div className='links-container'>
         <a href='https://sullivankids.org/'>
